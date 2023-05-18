@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  background-color: #e9f1f4;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  position: sticky;
+  box-shadow: 1px 2px 8px -1px #0000005c;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-name {
+  font-size: 26px;
+}
+
+.navbar-left {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.app-logo {
+  width: 60px;
+  padding: 10px;
+}
+
+.navbar-right-lists {
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  font-weight: 800;
+  list-style: none;
+  display: flex;
+}
+
+.navbar-right-lists :hover {
+  color: #dc143c;
+}
+
+li {
+  cursor: pointer;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.card {
+  width: 200px;
+  height: 275px;
+  color: #000;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  right: 4px;
+  box-shadow: 0 1px 7px -3px #00000091;
+}
+
+.card :hover {
+  color: #dc143c;
+}
+
+.card > img {
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.card > h3, .card > h5 {
+  padding-bottom: 10px;
+}
+
+.card > h6 {
+  padding-bottom: 7px;
+}
+
+.body {
+  margin-left: 10px;
+}
+
+.body-restaurant {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.search-bar {
+  margin-bottom: 15px;
+  margin-left: 6px;
+  display: flex;
+}
+
+.search-input {
+  width: 300px;
+  height: 25px;
+  outline-style: none;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

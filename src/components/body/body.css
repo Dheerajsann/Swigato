@@ -1,0 +1,27 @@
+
+.body {
+    margin-left: 10px;
+}
+
+.body-restaurant {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    margin-bottom: 15px;
+    margin-left: 6px;
+    display: flex;
+}
+
+.search-input {
+    width: 300px;
+    height: 25px;
+    margin-right: 10px;
+    outline-style: none;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+
